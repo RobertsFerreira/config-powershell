@@ -40,11 +40,11 @@ Select the theme and replace in **powershell profile** the path of theme
 Example: 
 **jandedobbeleer.omp.json** to clean **clean-detailed.omp.json**
 
+```powershell
+oh-my-posh init pwsh --config 'C:\Users\rober\AppData\Local\Programs\oh-my-posh\themes\clean-detailed.omp.json' | Invoke-Expression
+```
+
 For open the profile with `vscode` run
 ```powershell
 code $PROFILE
-```
-
-```powershell
-oh-my-posh init pwsh --config 'C:\Users\rober\AppData\Local\Programs\oh-my-posh\themes\clean-detailed.omp.json' | Invoke-Expression
 ```
