@@ -40,6 +40,8 @@ Select the theme and replace in **powershell profile** the path of theme
 Example: 
 **jandedobbeleer.omp.json** to clean **clean-detailed.omp.json**
 
+And added this line in your profile file or update this line case if exists
+
 ```powershell
 oh-my-posh init pwsh --config 'C:\Users\rober\AppData\Local\Programs\oh-my-posh\themes\clean-detailed.omp.json' | Invoke-Expression
 ```
